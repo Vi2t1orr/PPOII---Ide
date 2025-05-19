@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Nova Ideia - Projeto Ide</title>
+</head>
+<body>
+  <h2>Nova Ideia</h2>
+  <form action="salvar_ideia.php" method="POST" enctype="multipart/form-data">
+    <label for="titulo">Título:</label><br>
+    <input type="text" id="titulo" name="titulo" required><br>
+
+    <label for="descricao">Descrição:</label><br>
+    <textarea id="descricao" name="descricao" required></textarea><br>
+
+    <label for="anexo">Anexo:</label><br>
+    <input type="file" id="anexo" name="anexo"><br><br>
+
+    <input type="submit" value="Publicar">
+  </form>
+</body>
+</html>
